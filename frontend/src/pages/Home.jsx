@@ -99,7 +99,7 @@ const Home = () => {
                 value={minPrice}
                 onChange={(event) => setMinPrice(event.target.value)}
               />
-              <span>—</span>
+              <span>-</span>
               <input
                 className="home__price-input"
                 type="number"
